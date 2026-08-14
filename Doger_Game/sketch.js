@@ -74,6 +74,7 @@ class GoldPiece extends Enemy {
     
     constructor(x,y){
         super(x,y);
+        
     }
 
     show(){
