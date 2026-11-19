@@ -1,0 +1,62 @@
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-align: center;
+}
+
+
+.canvas_class{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 5%;
+    border: 3px solid black;
+}
+
+.operation_div{
+    border: 1px solid black;
+
+    display: flex;
+
+    flex-direction: row;
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+    width: 800px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 50px;
+}
+
+.operation_div h2{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    margin-left: 10px;
+    
+}
+
+.operation_div select{
+
+    width: 150px;
+    height: 50px;
+}
+.operation_div button{
+
+    color: white;
+    background-color: black;
+
+    width: 150px;
+    height: 50px;
+
+    border: 1px solid black;
+    border-radius: 3px;
+}
