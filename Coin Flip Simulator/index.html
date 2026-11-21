@@ -13,7 +13,7 @@
 
     <h2>Number of flips</h2>
 
-    <select name="number" id="chosen_amount" onchange="mult()">
+    <select name="number" id="chosen_amount">
         <option value="1">1</option>
         <option value="5">5</option>
         <option value="10">10</option>
@@ -23,7 +23,8 @@
         
     </select>
 
-    <button>Flip</button>
+    <button onclick="flip()">Flip</button>
+    <button onclick="clearBars()" style="width: 50px; background-color: gray;">Clear</button>
    </div>
 </body>
 </html>
